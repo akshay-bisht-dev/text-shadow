@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitch Text in CSS</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+        }
+        h1{
+            color: red;
+            text-align: left;
+        }
+        h1 span{
+            text-shadow: red -2px 0, cyan 2px 0;
+            font-size: 90px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Hello My Name is <br>
+        <span>Akshay...</span>
+    </h1>
+</body>
+</html>
